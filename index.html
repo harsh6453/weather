@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" placeholder="Enter City Name" spellcheck="false">
+            <button><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-search">
+                    <circle cx="11" cy="11" r="8" />
+                    <path d="m21 21-4.3-4.3" />
+                </svg></button>
+        </div>
+        <div class="weather">
+            <div class="weathericon">
+                <img src="sun.png">
+            </div>
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">Bareilly</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="humid.png">
+
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="windy.png">
+
+                    <div>
+                        <p class="wind">12 km/h</p>
+                        <p>Wind Speed</p>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>

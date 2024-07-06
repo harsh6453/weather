@@ -96,3 +96,32 @@ color: black;
 .weather{
     display: none;
 }
+@media only screen and (min-width: 600px) {
+    .container {
+        max-width: 600px;
+    }
+    .weathericon {
+        width: 200px; 
+    }
+    .temp {
+        font-size: 48px; /* Increase font size for temperature */
+    }
+    .col img {
+        width: 60px; /* Adjust icon size in details section */
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .container {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+    .weathericon {
+        width: 120px; /* Decrease weather icon size for smaller screens */
+    }
+    .temp {
+        font-size: 36px; /* Decrease font size for temperature */
+    }
+    .col img {
+        width: 40px; /* Decrease icon size in details section */
+    }
+}
